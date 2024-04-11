@@ -1,0 +1,95 @@
+* {
+    background: #3B4664;
+}
+
+/* INPUT-BOX */
+.container {
+    position: absolute;
+    top: 30px;
+    left: 380px;
+}
+
+.text-box {
+    background: #181F32;
+    border-radius: 12px;
+    height: 110px;
+    width: 530px;
+    border: none;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: right;
+    margin-bottom: 12px;
+}
+
+.text-box::placeholder {
+    color: white;
+}
+
+/* BUTTON-BOX */
+.button-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: #252D44;
+    width: 530px;
+    height: 430px;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.item {
+    height: 50px;
+    width: 80px;
+    color: #3B4664;
+    background-color: #EAE3DB;
+    border-radius: 12px;
+    font-weight: 800;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/* FOR DELETE BUTTON */
+.item-1 {
+    height: 50px;
+    width: 80px;
+    color: #3B4664;
+    background-color: #EAE3DB;
+    border-radius: 12px;
+    font-weight: 800;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/* FOR RESET AND = BUTTON */
+.bottom-btn {
+    display: grid;
+    grid-template-columns: 265px 265px;
+    grid-column: 1 / 3;
+    background-color: #252D44;
+    border-radius: 12px;
+}
+
+.reset-btn {
+    width: 212px;
+    height: 50px;
+    border-radius: 12px;
+    color: white;
+    background-color: #647299;
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.equal-btn {
+    width: 212px;
+    height: 50px;
+    border-radius: 12px;
+    color: white;
+    background-color: #D13F30;
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
