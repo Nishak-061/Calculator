@@ -5,15 +5,8 @@ let DeleteButton = document.querySelector('.item-1');
 
  buttons.forEach(function(button) {
      button.addEventListener('click', function(){
-        let buttonText = button.textContent;
-        // if(buttonText === '+'){
-        //     display.value += buttonText;
-        // } else if (buttonText === '-') {
-        //     display.value += buttonText;
-        // } else if (buttonText === 'x'){
-        //     display.value += '*';
-        // } else 
-        if (buttonText === '='){        //else
+        let buttonText = button.textContent; 
+        if (buttonText === '='){        
             let result = eval(display.value);
             if(result % 1 !==0){
                 display.value = result.toFixed(3);
